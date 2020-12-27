@@ -1,0 +1,27 @@
+#control-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+#action-toggler {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.radio-container {
+    margin: 0 1.5em;
+}
+
+.process-button {
+    max-width: auto;
+}
+
+.textarea-input {
+    margin: 1.25em 5em;
+}
