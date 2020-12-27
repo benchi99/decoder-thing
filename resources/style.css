@@ -14,14 +14,10 @@
     align-self: center;
 }
 
-.radio-container {
-    margin: 0 1.5em;
-}
-
 .process-button {
     max-width: auto;
 }
 
 .textarea-input {
-    margin: 1.25em 5em;
+    resize: none;
 }

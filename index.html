@@ -16,24 +16,24 @@
 
     <p style="text-align: center;">IDK, I was bored. Just wanted to test GH Pages.</p>
 
-    <div class="container-md">
+    <div class="container">
         <div id="control-container">
             <div id="action-toggler">
-                <div class="radio-container">
-                    <label for="encode">Encode</label>
-                    <input name="actionToPerform" id="encode" value="encode" type="radio" checked/>    
+                <div class="form-check mx-3">
+                    <input name="actionToPerform" id="encode" class="form-check-input" value="encode" type="radio" checked/>    
+                    <label for="encode" class="form-check-label">Encode</label>
                 </div>
-                <div class="radio-container">
-                    <label for="decode">Decode</label>
-                    <input name="actionToPerform" id="decode" value="decode" type="radio"/>    
+                <div class="form-check mx-3">
+                    <input name="actionToPerform" id="decode" class="form-check-input" value="decode" type="radio"/>    
+                    <label for="decode" class="form-check-label">Decode</label>
                 </div>
             </div>
     
-            <textarea id="textInput" placeholder="Enter your input here" cols="30" rows="10" class="textarea-input"></textarea>
+            <textarea id="textInput" placeholder="Enter your input here" cols="30" rows="10" class="my-3 mx-9 form-control textarea-input"></textarea>
         
             <button id="processButton" class="btn btn-primary process-button" style="margin: 0 5em;" onclick="process()">Process</button>
         
-            <textarea id="textOutput" placeholder="Result" readonly cols="30" rows="10" class="textarea-input"></textarea>
+            <textarea id="textOutput" placeholder="Result" readonly cols="30" rows="10" class="my-3 mx-9 form-control textarea-input"></textarea>
         </div>
     </div>
 </body>
